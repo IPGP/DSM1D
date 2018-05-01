@@ -1,0 +1,7 @@
+iasp91noQ.txt                          # earth model file
+stations.txt                           # receivers coordinates
+20.d0 0.d0 0.d0                        # source coordinates
+3276.8d0                               # tlen
+0 256                                  # imin imax
+0                                      # source type, moment or force [0,1]
+0                                      # geocentric coordinates transf [0,1]

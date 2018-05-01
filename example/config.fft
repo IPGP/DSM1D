@@ -1,0 +1,14 @@
+stations.txt                           # receivers coordinates
+stations_nrm.txt                       # receivers normal vectors
+stations_idx.txt                       # receivers replicated index
+20.d0 0.d0 0.d0                        # source coordinates
+3276.8d0                               # tlen
+0 256                                  # imin imax
+1.d0 1.d0 1.d0 0.5d0 -0.5d0 0.2d0      # moment tensor or force vector values
+0.01d0 0.02d0                          # fmin fmax
+0                                      # source type, moment or force [0,1]
+0                                      # output dis, vel, acc [0, 1, 2]
+2                                      # output zrt, zne, xyz [0, 1, 2]
+0                                      # geocentric coordinates transf [0,1]
+0                                      # filter output fields [0,1]
+mirror.0000.h5                         # output displacement and stress file
