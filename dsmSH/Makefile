@@ -48,10 +48,10 @@ RM = /cm/local/apps/cmake/3.7.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nobuaki/git/DSM_package_to_nobu
+CMAKE_SOURCE_DIR = /home/nobuaki/git/DSM1D
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nobuaki/git/DSM_package_to_nobu
+CMAKE_BINARY_DIR = /home/nobuaki/git/DSM1D
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(CMAKE_COMMAND) -E cmake_progress_start /home/nobuaki/git/DSM_package_to_nobu/CMakeFiles /home/nobuaki/git/DSM_package_to_nobu/dsmSH/CMakeFiles/progress.marks
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f CMakeFiles/Makefile2 dsmSH/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nobuaki/git/DSM_package_to_nobu/CMakeFiles 0
+	cd /home/nobuaki/git/DSM1D && $(CMAKE_COMMAND) -E cmake_progress_start /home/nobuaki/git/DSM1D/CMakeFiles /home/nobuaki/git/DSM1D/dsmSH/CMakeFiles/progress.marks
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f CMakeFiles/Makefile2 dsmSH/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nobuaki/git/DSM1D/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f CMakeFiles/Makefile2 dsmSH/clean
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f CMakeFiles/Makefile2 dsmSH/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f CMakeFiles/Makefile2 dsmSH/preinstall
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f CMakeFiles/Makefile2 dsmSH/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f CMakeFiles/Makefile2 dsmSH/preinstall
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f CMakeFiles/Makefile2 dsmSH/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nobuaki/git/DSM1D && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/rule:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f CMakeFiles/Makefile2 dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/rule
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f CMakeFiles/Makefile2 dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/rule
 .PHONY : dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ dsmSHmpi_ms.x: dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/rule
 
 # fast build rule for target.
 dsmSHmpi_ms.x/fast:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build
 .PHONY : dsmSHmpi_ms.x/fast
 
 # Convenience name for target.
 dsmSH/CMakeFiles/dsmSHmpi.x.dir/rule:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f CMakeFiles/Makefile2 dsmSH/CMakeFiles/dsmSHmpi.x.dir/rule
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f CMakeFiles/Makefile2 dsmSH/CMakeFiles/dsmSHmpi.x.dir/rule
 .PHONY : dsmSH/CMakeFiles/dsmSHmpi.x.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ dsmSHmpi.x: dsmSH/CMakeFiles/dsmSHmpi.x.dir/rule
 
 # fast build rule for target.
 dsmSHmpi.x/fast:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/build
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/build
 .PHONY : dsmSHmpi.x/fast
 
 # Convenience name for target.
 dsmSH/CMakeFiles/dsmSH.x.dir/rule:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f CMakeFiles/Makefile2 dsmSH/CMakeFiles/dsmSH.x.dir/rule
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f CMakeFiles/Makefile2 dsmSH/CMakeFiles/dsmSH.x.dir/rule
 .PHONY : dsmSH/CMakeFiles/dsmSH.x.dir/rule
 
 # Convenience name for target.
@@ -152,7 +152,7 @@ dsmSH.x: dsmSH/CMakeFiles/dsmSH.x.dir/rule
 
 # fast build rule for target.
 dsmSH.x/fast:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/build
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/build
 .PHONY : dsmSH.x/fast
 
 calmat.o: calmat.f90.o
@@ -161,9 +161,9 @@ calmat.o: calmat.f90.o
 
 # target to build an object file
 calmat.f90.o:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/calmat.f90.o
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/calmat.f90.o
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/calmat.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/calmat.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/calmat.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/calmat.f90.o
 .PHONY : calmat.f90.o
 
 calmat.i: calmat.f90.i
@@ -172,9 +172,9 @@ calmat.i: calmat.f90.i
 
 # target to preprocess a source file
 calmat.f90.i:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/calmat.f90.i
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/calmat.f90.i
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/calmat.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/calmat.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/calmat.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/calmat.f90.i
 .PHONY : calmat.f90.i
 
 calmat.s: calmat.f90.s
@@ -183,9 +183,9 @@ calmat.s: calmat.f90.s
 
 # target to generate assembly for a file
 calmat.f90.s:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/calmat.f90.s
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/calmat.f90.s
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/calmat.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/calmat.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/calmat.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/calmat.f90.s
 .PHONY : calmat.f90.s
 
 dclib.o: dclib.f90.o
@@ -194,9 +194,9 @@ dclib.o: dclib.f90.o
 
 # target to build an object file
 dclib.f90.o:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/dclib.f90.o
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/dclib.f90.o
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/dclib.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/dclib.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/dclib.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/dclib.f90.o
 .PHONY : dclib.f90.o
 
 dclib.i: dclib.f90.i
@@ -205,9 +205,9 @@ dclib.i: dclib.f90.i
 
 # target to preprocess a source file
 dclib.f90.i:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/dclib.f90.i
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/dclib.f90.i
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/dclib.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/dclib.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/dclib.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/dclib.f90.i
 .PHONY : dclib.f90.i
 
 dclib.s: dclib.f90.s
@@ -216,9 +216,9 @@ dclib.s: dclib.f90.s
 
 # target to generate assembly for a file
 dclib.f90.s:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/dclib.f90.s
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/dclib.f90.s
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/dclib.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/dclib.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/dclib.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/dclib.f90.s
 .PHONY : dclib.f90.s
 
 dclib3.o: dclib3.f90.o
@@ -227,9 +227,9 @@ dclib3.o: dclib3.f90.o
 
 # target to build an object file
 dclib3.f90.o:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/dclib3.f90.o
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/dclib3.f90.o
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/dclib3.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/dclib3.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/dclib3.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/dclib3.f90.o
 .PHONY : dclib3.f90.o
 
 dclib3.i: dclib3.f90.i
@@ -238,9 +238,9 @@ dclib3.i: dclib3.f90.i
 
 # target to preprocess a source file
 dclib3.f90.i:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/dclib3.f90.i
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/dclib3.f90.i
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/dclib3.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/dclib3.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/dclib3.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/dclib3.f90.i
 .PHONY : dclib3.f90.i
 
 dclib3.s: dclib3.f90.s
@@ -249,9 +249,9 @@ dclib3.s: dclib3.f90.s
 
 # target to generate assembly for a file
 dclib3.f90.s:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/dclib3.f90.s
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/dclib3.f90.s
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/dclib3.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/dclib3.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/dclib3.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/dclib3.f90.s
 .PHONY : dclib3.f90.s
 
 formpi.o: formpi.f90.o
@@ -260,9 +260,9 @@ formpi.o: formpi.f90.o
 
 # target to build an object file
 formpi.f90.o:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/formpi.f90.o
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/formpi.f90.o
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/formpi.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/formpi.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/formpi.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/formpi.f90.o
 .PHONY : formpi.f90.o
 
 formpi.i: formpi.f90.i
@@ -271,9 +271,9 @@ formpi.i: formpi.f90.i
 
 # target to preprocess a source file
 formpi.f90.i:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/formpi.f90.i
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/formpi.f90.i
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/formpi.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/formpi.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/formpi.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/formpi.f90.i
 .PHONY : formpi.f90.i
 
 formpi.s: formpi.f90.s
@@ -282,9 +282,9 @@ formpi.s: formpi.f90.s
 
 # target to generate assembly for a file
 formpi.f90.s:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/formpi.f90.s
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/formpi.f90.s
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/formpi.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/formpi.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/formpi.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/formpi.f90.s
 .PHONY : formpi.f90.s
 
 glu2.o: glu2.f90.o
@@ -293,9 +293,9 @@ glu2.o: glu2.f90.o
 
 # target to build an object file
 glu2.f90.o:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/glu2.f90.o
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/glu2.f90.o
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/glu2.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/glu2.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/glu2.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/glu2.f90.o
 .PHONY : glu2.f90.o
 
 glu2.i: glu2.f90.i
@@ -304,9 +304,9 @@ glu2.i: glu2.f90.i
 
 # target to preprocess a source file
 glu2.f90.i:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/glu2.f90.i
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/glu2.f90.i
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/glu2.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/glu2.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/glu2.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/glu2.f90.i
 .PHONY : glu2.f90.i
 
 glu2.s: glu2.f90.s
@@ -315,9 +315,9 @@ glu2.s: glu2.f90.s
 
 # target to generate assembly for a file
 glu2.f90.s:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/glu2.f90.s
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/glu2.f90.s
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/glu2.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/glu2.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/glu2.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/glu2.f90.s
 .PHONY : glu2.f90.s
 
 myTraSH.o: myTraSH.f90.o
@@ -326,7 +326,7 @@ myTraSH.o: myTraSH.f90.o
 
 # target to build an object file
 myTraSH.f90.o:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/myTraSH.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/myTraSH.f90.o
 .PHONY : myTraSH.f90.o
 
 myTraSH.i: myTraSH.f90.i
@@ -335,7 +335,7 @@ myTraSH.i: myTraSH.f90.i
 
 # target to preprocess a source file
 myTraSH.f90.i:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/myTraSH.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/myTraSH.f90.i
 .PHONY : myTraSH.f90.i
 
 myTraSH.s: myTraSH.f90.s
@@ -344,7 +344,7 @@ myTraSH.s: myTraSH.f90.s
 
 # target to generate assembly for a file
 myTraSH.f90.s:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/myTraSH.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/myTraSH.f90.s
 .PHONY : myTraSH.f90.s
 
 myTraSHmpi.o: myTraSHmpi.f90.o
@@ -353,7 +353,7 @@ myTraSHmpi.o: myTraSHmpi.f90.o
 
 # target to build an object file
 myTraSHmpi.f90.o:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/myTraSHmpi.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/myTraSHmpi.f90.o
 .PHONY : myTraSHmpi.f90.o
 
 myTraSHmpi.i: myTraSHmpi.f90.i
@@ -362,7 +362,7 @@ myTraSHmpi.i: myTraSHmpi.f90.i
 
 # target to preprocess a source file
 myTraSHmpi.f90.i:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/myTraSHmpi.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/myTraSHmpi.f90.i
 .PHONY : myTraSHmpi.f90.i
 
 myTraSHmpi.s: myTraSHmpi.f90.s
@@ -371,7 +371,7 @@ myTraSHmpi.s: myTraSHmpi.f90.s
 
 # target to generate assembly for a file
 myTraSHmpi.f90.s:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/myTraSHmpi.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/myTraSHmpi.f90.s
 .PHONY : myTraSHmpi.f90.s
 
 myTraSHmpi_ms.o: myTraSHmpi_ms.f90.o
@@ -380,7 +380,7 @@ myTraSHmpi_ms.o: myTraSHmpi_ms.f90.o
 
 # target to build an object file
 myTraSHmpi_ms.f90.o:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/myTraSHmpi_ms.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/myTraSHmpi_ms.f90.o
 .PHONY : myTraSHmpi_ms.f90.o
 
 myTraSHmpi_ms.i: myTraSHmpi_ms.f90.i
@@ -389,7 +389,7 @@ myTraSHmpi_ms.i: myTraSHmpi_ms.f90.i
 
 # target to preprocess a source file
 myTraSHmpi_ms.f90.i:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/myTraSHmpi_ms.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/myTraSHmpi_ms.f90.i
 .PHONY : myTraSHmpi_ms.f90.i
 
 myTraSHmpi_ms.s: myTraSHmpi_ms.f90.s
@@ -398,7 +398,7 @@ myTraSHmpi_ms.s: myTraSHmpi_ms.f90.s
 
 # target to generate assembly for a file
 myTraSHmpi_ms.f90.s:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/myTraSHmpi_ms.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/myTraSHmpi_ms.f90.s
 .PHONY : myTraSHmpi_ms.f90.s
 
 others.o: others.f90.o
@@ -407,9 +407,9 @@ others.o: others.f90.o
 
 # target to build an object file
 others.f90.o:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/others.f90.o
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/others.f90.o
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/others.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/others.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/others.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/others.f90.o
 .PHONY : others.f90.o
 
 others.i: others.f90.i
@@ -418,9 +418,9 @@ others.i: others.f90.i
 
 # target to preprocess a source file
 others.f90.i:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/others.f90.i
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/others.f90.i
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/others.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/others.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/others.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/others.f90.i
 .PHONY : others.f90.i
 
 others.s: others.f90.s
@@ -429,9 +429,9 @@ others.s: others.f90.s
 
 # target to generate assembly for a file
 others.f90.s:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/others.f90.s
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/others.f90.s
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/others.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/others.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/others.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/others.f90.s
 .PHONY : others.f90.s
 
 trial.o: trial.f90.o
@@ -440,9 +440,9 @@ trial.o: trial.f90.o
 
 # target to build an object file
 trial.f90.o:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/trial.f90.o
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/trial.f90.o
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/trial.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/trial.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/trial.f90.o
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/trial.f90.o
 .PHONY : trial.f90.o
 
 trial.i: trial.f90.i
@@ -451,9 +451,9 @@ trial.i: trial.f90.i
 
 # target to preprocess a source file
 trial.f90.i:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/trial.f90.i
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/trial.f90.i
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/trial.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/trial.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/trial.f90.i
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/trial.f90.i
 .PHONY : trial.f90.i
 
 trial.s: trial.f90.s
@@ -462,9 +462,9 @@ trial.s: trial.f90.s
 
 # target to generate assembly for a file
 trial.f90.s:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/trial.f90.s
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/trial.f90.s
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/trial.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi_ms.x.dir/trial.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSHmpi.x.dir/build.make dsmSH/CMakeFiles/dsmSHmpi.x.dir/trial.f90.s
+	cd /home/nobuaki/git/DSM1D && $(MAKE) -f dsmSH/CMakeFiles/dsmSH.x.dir/build.make dsmSH/CMakeFiles/dsmSH.x.dir/trial.f90.s
 .PHONY : trial.f90.s
 
 # Help Target
@@ -519,6 +519,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nobuaki/git/DSM_package_to_nobu && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nobuaki/git/DSM1D && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

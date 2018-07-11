@@ -1,4 +1,4 @@
-# Install script for directory: /home/nobuaki/git/DSM_package_to_nobu/dsmFFT
+# Install script for directory: /home/nobuaki/git/DSM1D/dsmFFT
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
