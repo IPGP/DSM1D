@@ -5,7 +5,8 @@ use menv
 use mrot
 implicit none
 character(40) :: nodesfile,normsfile,indexfile,freqfile,attr,f_text
-integer :: i,j,k,imin,imax,i_source,i_channel,i_geocentric,i_filter,i_basis,imt,nsta,lsmooth,np0,np1,n_dcm,n_spl,n_t,n_tdwn,ntime,nidx,nsta_text
+integer :: i,j,k,imin,imax,i_source,i_channel,i_geocentric,i_filter,i_basis,imt,nsta,lsmooth
+integer :: np0,np1,n_dcm,n_spl,n_t,n_tdwn,ntime,nidx,nsta_text
 real(kind(0d0)) :: tlen,fmin,fmax,r0,lat0,lon0,samplingHz,d_t,norm
 integer, dimension(:), allocatable :: updown,indx
 real(kind(0d0)), dimension(3) :: normal_real
@@ -18,7 +19,8 @@ complex(kind(0d0)), dimension(:,:), allocatable :: normal,gt
 complex(kind(0e0)), dimension(:,:,:), allocatable :: tmpsngl
 complex(kind(0e0)), dimension(:,:,:,:), allocatable :: stresssngl,displacementsngl
 
-call myinput(nodesfile,normsfile,indexfile,mirrorfile,tlen,imin,imax,fmin,fmax,r0,lat0,lon0,i_source,i_channel,i_geocentric,i_filter,i_basis,mt)
+call myinput(nodesfile,normsfile,indexfile,mirrorfile,tlen,imin,imax,fmin,fmax,r0, &
+lat0,lon0,i_source,i_channel,i_geocentric,i_filter,i_basis,mt)
 
 open(1,file=nodesfile)
 read(1,*) nsta
@@ -63,7 +65,7 @@ close(1)
 !np1 = imax*lsmooth
 !n_t = 2*np1
 !samplingHz = dble(n_t)/tlen
-samplingHz = 10.d0
+samplingHz = 20.d0
 call lsmoothfinder(tlen,imax,samplingHz,lsmooth)
 i = 1
 do while (i<lsmooth)
