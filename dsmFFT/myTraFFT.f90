@@ -148,12 +148,14 @@ deallocate(stresssngl,displacementsngl)
 !!! dump 10 first receivers in text format
 nsta_text = min(10,nsta)
 do i = 1,nsta_text
+
   write(f_text,'("out",i1.1,".txt")') i-1
   open(1,file=f_text)
   do j = 0,n_t-1
-    write(1,'(f12.4,6e14.6)') j*1.d0/samplingHz,fields(1:6,j,i)
+    write(1,'(f12.4,6e14.6)') j*1.d0/samplingHz,fields(7:9,j,i)
   enddo
   close(1)
+
 enddo
 !!! NOBU !!!
 
